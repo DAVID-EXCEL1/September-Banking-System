@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* Nav bar Styling */
+.navbar {
+    box-shadow: 2px 2px 5px #cccccccc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.navbar h1 {
+    font-family: "Cinzel Decorative", serif;
+    color: rebeccapurple;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rebeccapurple;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    color: purple;
+    transition: 0.5s;
+}
+
+.navbar button {
+    padding: 10px 17px;
+    border: 1px solid rebeccapurple;
+    color: rebeccapurple;
+    background-color: #ffffff;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: rebeccapurple;
+    color: white;
+    transition: 0.5s;
+}
+
+
+/* Hero Section Styling */
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 200px;
+    align-items: center;
+    gap: 100px;
+}
+
+.image-section svg {
+    width: 600px;
+}
+
+.text-section h1 {
+    font-size: 60px;
+    line-height: 1.2;
+}
+
+.text-section h1 span {
+    color: rebeccapurple;
+}
+
+.text-section p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.text-section button {
+    padding: 10px 17px;
+    border: 1px solid rebeccapurple;
+    color: rebeccapurple;
+    background-color: #ffffff;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.text-section button:hover {
+    background-color: rebeccapurple;
+    color: white;
+    transition: 0.5s;
+}
