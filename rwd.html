@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsiveness</title>
+    <style>
+        body {
+            background-color: rgb(73, 73, 73);
+        }
+
+        .div {
+            width: 600px;
+            height: 600px;
+            background-color: rgb(255, 140, 0);
+        }
+
+        @media (min-width:481px) and (max-width:768px) {
+            .div {
+                width: 400px;
+                height: 400px;
+                background-color: rgb(195, 123, 36);
+            }
+        }
+
+        @media screen and (max-width:480px) {
+            .div {
+                width: 200px;
+                height: 200px;
+                background-color: rgb(190, 135, 68);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div"></div>
+    <!-- Responsive values -->
+</body>
+
+</html>
